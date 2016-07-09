@@ -1,0 +1,517 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-width: 550px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.bgImg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  display: none;
+}
+
+/*加载页*/
+.load-page {
+  background-image: url(https://dn-c360-activity.qbox.me/page1-bg.jpg);
+}
+
+.load-page-text {
+  /*position: absolute;*/
+  /*top: 40%;*/
+  text-align: center;
+  color: #ffffff;
+  margin-top: 70%;
+  font-size: 1.2em;
+}
+
+/*页面1*/
+.page1 {
+  background-image: url(https://dn-c360-activity.qbox.me/page1-bg.jpg);
+}
+
+.icon {
+  position: relative;
+  float: left;
+  width: 18.75%;
+  margin-left: 5%;
+  margin-top: 6.25%;
+}
+
+.icon img {
+  width: 100%;
+}
+
+.icon span {
+  background-color: #f6242d;
+  position: absolute;
+  border-radius: 20px;
+  padding: 3px 10px;
+  top: -11px;
+  right: -18px;
+  color: white;
+}
+
+/*页面0*/
+.page0 {
+  background-image: url(https://dn-c360-activity.qbox.me/page1-bg.jpg);
+}
+
+/*页面1*/
+.page1-footer {
+  width: 100%;
+  height: 0;
+  padding-bottom: 29.69%;
+  position: absolute;
+  bottom: 0;
+  background-image: url(https://dn-c360-activity.qbox.me/page1-footer.png);
+}
+
+.page1-footer .icon {
+  margin-top: 3.5%;
+}
+
+#wantLook img {
+  float: left;
+}
+
+/*页面2*/
+.page2 {
+  background-image: url(https://dn-c360-activity.qbox.me/page2-bg.png);
+}
+
+.page2-alert {
+  width: 60%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: -30%;
+
+}
+
+.page2-alert img {
+  width: 100%;
+}
+
+.page2-alert img:last-child {
+  margin-top: -4px;
+}
+
+/*页面3*/
+.page3 {
+  background-image: url(https://dn-c360-activity.qbox.me/page1-bg.jpg);
+}
+
+.page3 img {
+  position: absolute;
+  width: 60%;
+}
+
+.page3-alert {
+  display: none;
+}
+
+/*页面4*/
+.page4 {
+  background-image: url(https://dn-c360-activity.qbox.me/page1-bg.jpg);
+}
+
+/*.page4 img {*/
+/*width: 65.63%;*/
+/*position: absolute;*/
+/*top: 30%;*/
+/*left: 50%;*/
+/*margin-left: -32.82%;*/
+/*}*/
+
+.page4-text-content {
+  position: absolute;
+  width: 100%;
+  top: 31%;
+}
+
+.page4-text-content img {
+  width: 100%;
+  display: none;
+}
+
+.page4-text1 {
+  /*width: 46.56%;*/
+  /*display: table-cell;*/
+  /*margin: 0 auto;*/
+  /*vertical-align: middle;*/
+}
+
+.page4-text2 {
+  /*width: 52.97%;*/
+  /*display: table-cell;*/
+  margin: 6.25% 0 5% 0;
+}
+
+.page4-text3 {
+  /*width: 62.03%;*/
+  /*display: table-cell;*/
+  /*margin: 0 auto;*/
+}
+
+/*页面5*/
+.page5 {
+  background-image: url(https://dn-c360-activity.qbox.me/page2-bg.png);
+}
+
+.page5-alert-content {
+  width: 60%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: -30%;
+}
+
+.page5-alert {
+  width: 100%;
+  height: 0;
+  padding-bottom: 35.26%;
+  /*margin-bottom: -4px;*/
+  /*background-color: red;*/
+  float: left;
+  background-image: url(https://dn-c360-activity.qbox.me/page5-alert.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+/*.page5-control {*/
+/*width: 100%;*/
+/*height: 0;*/
+/*padding-bottom: 16.67%;*/
+/*background-color: red;*/
+/*float: left;*/
+/*}*/
+
+.page5-close {
+  width: 50%;
+  height: 0;
+  padding-bottom: 16.67%;
+  float: left;
+  background-image: url(https://dn-c360-activity.qbox.me/page5-close.png);
+}
+
+.page5-open {
+  width: 50%;
+  height: 0;
+  padding-bottom: 16.67%;
+  float: right;
+  background-image: url(https://dn-c360-activity.qbox.me/page5-open.png);
+}
+
+/*页面6*/
+.page6 {
+    background-color: white;
+    /*padding-bottom: 12.3%;*/
+    position: absolute;
+    height: 100%;
+    overflow-y: auto;
+
+}
+
+.page6-message {
+  margin: 20px 0;
+  display: none;
+}
+
+/*.page6-message:last-child {*/
+/*margin-bottom: 15%;*/
+/*}*/
+
+.page6-message-content {
+    /*height: 88%;*/
+    width: 100%;
+    /*height: 0;*/
+    /*height: 100%;*/
+    padding-bottom: 12.3%;
+    /*overflow-y: auto;*/
+}
+/*.page6-header {*/
+  /*background-image: url(https://s3.cn-north-1.amazonaws.com.cn/pg-dev/dev-luozhong/DoubleNinth/images/page6-header.png);*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*background-size: 100% 100%;*/
+  /*height: 0;*/
+  /*width: 100%;*/
+  /*padding-bottom: 8.9%;*/
+/*}*/
+
+/*.page6-message-content {*/
+  /*height: 88%;*/
+  /*overflow-y: auto;*/
+/*}*/
+
+/*.page6-footer {*/
+  /*height: 0;*/
+  /*background-image: url(https://s3.cn-north-1.amazonaws.com.cn/pg-dev/dev-luozhong/DoubleNinth/images/page6-footer.png);*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*background-size: 100% 100%;*/
+  /*width: 100%;*/
+  /*padding-bottom: 12.3%;*/
+  /*position: fixed;*/
+  /*bottom: 0;*/
+/*}*/
+
+.my-message {
+  position: relative;
+}
+
+.my-head {
+  position: absolute;
+  background-color: gray;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  width: 12.19%;
+  height: 0;
+  padding-bottom: 12.19%;
+  top: 0;
+  right: 5.47%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.page6-alert-content {
+  position: fixed;
+  width: 60%;
+  z-index: 10;
+  top: 40%;
+  left: 50%;
+  margin-left: -30%;
+  overflow: hidden;
+}
+
+.page6-alert-content img {
+  width: 100%;
+  float: left;
+}
+
+/*页面7*/
+.page7 {
+  background-image: url(https://dn-c360-activity.qbox.me/page1-bg.jpg);
+}
+
+.page7-name {
+  width: 23.44%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -11.72%;
+}
+
+.page7-content {
+  width: 100%;
+  position: absolute;
+  display: table;
+  bottom: 15%;
+}
+
+.page7-phone {
+  width: 18.75%;
+  /*position: absolute;*/
+  margin: 0 auto;
+  display: table-cell;
+}
+
+.page7-text {
+  width: 44.84%;
+  margin: 0 auto;
+  display: table-cell;
+}
+
+/*页面8*/
+.page8 {
+  background-image: url(https://dn-c360-activity.qbox.me/page8-bg.jpg);
+}
+
+.page8-phone {
+  position: absolute;
+  width: 18.75%;
+  bottom: 15%;
+  left: 50%;
+  margin-left: -9.38%;
+}
+
+/*页面9*/
+/*#slipPage {*/
+/*overflow: hidden;*/
+/*}*/
+
+.page9 {
+  background-image: url(https://dn-c360-activity.qbox.me/page9-bg.jpg);
+}
+
+#slipPage {
+    height: 100%;
+}
+
+.roll-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.chubao-page, .c360-page, .WX-page {
+  opacity: 0;
+  -webkit-transition: all ease-out 1s;
+  -moz-transition: all ease-out 1s;
+  -ms-transition: all ease-out 1s;
+  -o-transition: all ease-out 1s;
+  transition: all ease-out 1s;
+}
+
+.page9-text1 {
+  width: 31.1%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -15.55%;
+  display: none;
+}
+
+.page9-text2 {
+  width: 41.82%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-left: -20.91%;
+  display: none;
+}
+
+.arrow {
+  width: 12.13%;
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  margin-left: -6.07%;
+  display: none;
+}
+
+/*触宝*/
+.chubao-page img {
+  position: absolute;
+  left: 50%;
+}
+
+.C360-text {
+  width: 54.17%;
+  margin-left: -27.1%;
+  top: 30%;
+}
+
+.C360-btn {
+  width: 51.67%;
+  margin-left: -25.84%;
+  top: 51%;
+}
+
+.C360-logo {
+  width: 33.2%;
+  margin-left: -16.6%;
+  bottom: 10%;
+}
+
+/*Camera360*/
+.C360-page img {
+  position: absolute;
+  left: 50%;
+}
+
+.chubao-text {
+  width: 54%;
+  margin-left: -27%;
+  top: 28%;
+}
+
+.chubao-btn {
+  width: 51.67%;
+  margin-left: -25.84%;
+  top: 51%;
+}
+
+.chubao-logo {
+  width: 30.14%;
+  margin-left: -15.07%;
+  bottom: 10%;
+}
+
+/*微信*/
+.WX-page img {
+  position: absolute;
+  left: 50%;
+}
+
+.wx-text {
+  width: 50%;
+  margin-left: -25%;
+  top: 16%;
+}
+
+.wx-btn-content {
+  position: absolute;
+  top: 50%;
+}
+
+.wx-btn-content img {
+  position: static;
+  width: 38.9%;
+}
+
+.wx-btn1 {
+  margin: 0 2% 0 9.5%;
+}
+
+.wx-logo-content {
+  position: absolute;
+  bottom: 10%;
+}
+
+.wx-logo-content img {
+  position: static;
+}
+
+.wx-logo1 {
+  width: 30.14%;
+  margin: 0 4% -4px 17.5%;
+}
+
+.wx-logo2 {
+  width: 33.2%;
+}
