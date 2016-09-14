@@ -1,0 +1,343 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, span, img, input, ul, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-size: 12px;
+	font-family: '微软雅黑', Arial, Helvetica;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+.l {
+	float: left;
+}
+
+.r {
+	float: right;
+}
+
+.bg-img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-icon {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.page {
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+/*root*/
+.page-root {
+	/*height: 100%;*/
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(./images/root-bg.jpg);
+	text-align: center;
+}
+
+.root-rule {
+	width: 19.8%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 40%;
+	left: 50%;
+	margin-left: -9.9%;
+}
+
+.root-btn-group {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 20%;
+}
+
+.root-btn-group img {
+	width: 35.2%;
+	margin: 0 4.3%;
+}
+
+/*root-pop*/
+.pop {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 1;
+	overflow: hidden;
+	display: none;
+}
+
+.pop .bg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.pop-share .bg {
+	width: 73.3%;
+}
+
+.pop-share .share-btn {
+	position: absolute;
+	width: 54%;
+	bottom: 0;
+	left: 50%;
+	margin-left: -27%;
+	margin-bottom: 12%;
+}
+
+.pop-end img {
+	width: 73.3%;
+}
+
+.pop-rule img {
+	width: 85%;
+}
+
+.pop-rank .bg {
+	width: 85.6%;
+}
+
+.pop-rank ul {
+	width: 81.2%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -40.6%;
+	margin-top: 45%;
+	font-size: 16px;
+}
+
+.pop-rank li {
+	margin-bottom: 6%;
+	position: relative;
+	overflow: hidden;
+}
+
+.range {
+	margin-right: 15%;
+}
+
+/*answer*/
+.page-answer {
+	min-height: 100%;
+	text-align: center;
+	background-color: #fecd30;
+	display: none;
+}
+
+.ask-area {
+	width: 100%;
+	height: 0;
+	padding-bottom: 66.5%;
+	background-image: url(./images/answerSheet.png);
+	background-position: top center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 8.8%;
+}
+
+.ask-board {
+	width: 66.6%;
+	height: 0;
+	padding-bottom: 37.8%;
+	margin: 18% auto 0 auto; 
+}
+
+.ask-area p {
+	width: 66.5%;
+	display: inline-block;
+	margin: 2.5% auto 0 auto;
+	color: #fff;
+	text-align: left;
+	font-size: 15px;
+}
+
+.answer-group {
+	width: 74.7%;
+	display: inline-block;
+}
+
+.answer-group li {
+	text-align: left;
+	font-size: 18px;
+	line-height: 1;
+	width: 100%;
+	padding: 5% 0 5% 7.2%;
+	border: 2px solid #000;
+	border-radius: 100px;
+	margin-bottom: 6.7%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.answer-group span {
+	margin-left: 10%;
+}
+
+.right {
+	background-color: #00b96b;
+	border-color: transparent !important;
+	color: #fff;
+}
+
+.right::after {
+	content: '';
+	position: absolute;
+	width: 10%;
+	height: 0;
+	padding-bottom: 10%;
+	right: 3.6%;
+	top: 50%;
+	margin-top: -5%;
+	background-image: url(./images/right.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.wrong {
+	background-color: #c12d26;
+	border-color: transparent !important;
+	color: #fff;
+}
+
+.wrong::after {
+	content: '';
+	position: absolute;
+	width: 10%;
+	height: 0;
+	padding-bottom: 10%;
+	right: 3.6%;
+	top: 50%;
+	margin-top: -5%;
+	background-image: url(./images/wrong.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/*page-result*/
+.page-result {
+	background-image: url(./images/result-bg.jpg);
+	background-color: #fecd30;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+	display: none;
+}
+
+.score-board {
+	width: 66.8%;
+	height: 0;
+	padding-bottom: 24.7%;
+	margin: 0 auto;
+	background-image: url(./images/score-board.png);
+	overflow: hidden;
+}
+
+.score-board p {
+	text-align: center;
+	font-size: 19px;
+	color: #fff;
+	line-height: 1;
+	margin-top: 21.5%;
+}
+
+.result-btn-group {
+	width: 100%;
+	text-align: center;
+	margin: 50% 0 18% 0;
+}
+
+.result-btn-group img {
+	width: 35.2%;
+	margin: 0 6%;
+}
+
+.range-area {
+	width: 87.7%;
+	border: 2px solid #000;
+	margin: 0 auto 50px auto;
+	position: relative;
+	text-align: center;
+	padding-bottom: 7%;
+}
+
+.range-title {
+	width: 79.6%;
+	margin-top: -9%;
+}
+
+.range-area ul {
+	font-size: 16px;
+	width: 78%;
+	margin: 8% auto 0 auto;
+}
+
+.range-area li {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 6%;
+}
+
+.pop-result-share .bg, .pop-omg .bg {
+	width: 73.3%;
+}
+
+.pop-result-share .share-btn, .pop-omg .share-btn {
+	position: absolute;
+	width: 56.8%;
+	bottom: 0;
+	left: 50%;
+	margin-left: -28.4%;
+	margin-bottom: 12%;
+}
+
+.pop-result-end img {
+	width: 73.3%;
+}
+
+/*download*/
+.download-bar {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.download {
+	width: 26.7%;
+	position: absolute;
+	right: 11px;
+	top: 28%;
+}
